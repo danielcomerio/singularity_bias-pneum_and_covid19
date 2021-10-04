@@ -16,53 +16,45 @@ def change_width(ax, new_value):
 
 
 def create_graph_all():
-    #CLASSES = ["Train", "figure1", "covid_chestxray", "covid19_radiography", "actualmed", "rsna"]
-    CLASSES = ["chestxray", "radiography",
-               "actualmed", "rsna"]  # número de gráficos
+    CLASSES = ["figure1", "chestxray", "radiography",
+               "actualmed", "rsna"]  # represents number of graphs #here
     '''
-    TRAIN = [0.8611, 0.8657, 0.9874, 0.9036, 0.9585]
-    FIGURE1 = [1.0, 1.0, 0.5, 1.0, 0.0]
-    CHESTXRAY = [0.69565, 0.78260, 0.60869, 0.76, 0.23809]
-    RADIOGRAPHY = [0.30848, 0.37017, 0.94601, 0.75590, 0.18587]
-    ACTUALMED = [0.31578, 0.31578, 0.47368, 0.94736, 0.0]
-    RSNA = [0.0, 0.10423, 0.31540, 0.86004, 0.05110]
+    #one dataset metric per list
 
     CHESTXRAY = [0.78260, 0.60869, 0.76190]
     RADIOGRAPHY = [0.370179, 0.94601, 0.77695]
     RSNA = [0.10423, 0.31540, 0.93678]
-    '''
 
     CHESTXRAY = [0.78260, 0.60869, 0.76, 0.76190]
     RADIOGRAPHY = [0.370179, 0.94601, 0.75590, 0.77695]
     ACTUALMED = [0.31578, 0.47368, 0.94736, 1.0]
     RSNA = [0.10423, 0.31540, 0.86004, 0.93678]
+    '''
 
-    """
-    DB_NAMES = [
-        "Figure 1 COVID-19 Chest X-ray",
-        "COVID Chest X-Ray",
-        "COVID-19 Radiography",
-        "Actualmed COVID-19 Chest X-ray",
-        "RSNA Pneumonia Detection Challenge"
-    ]"""
+    # actually, the last result of FIGURE1 (0.0) doesn't exist #here
+    FIGURE1 = [1.0, 1.0, 0.5, 1.0, 0.0]
+    CHESTXRAY = [0.69565, 0.78260, 0.60869, 0.76, 0.76190]
+    RADIOGRAPHY = [0.30848, 0.37017, 0.94601, 0.75590, 0.77695]
+    ACTUALMED = [0.31578, 0.31578, 0.47368, 0.94736, 1.0]
+    RSNA = [0.0, 0.10423, 0.31540, 0.86004, 0.93678]
 
     DB_NAMES = [
-        #"Model Figure 1",
+        "Model Figure 1",
         "Model COVID Chest X-Ray",
         "Model COVID-19 Radiography",
         "Model Actualmed",
         "Model RSNA"
-    ]
+    ]  # here
 
     OUTPUT_NAMES = [
-        # "model_figure1",
+        "model_figure1",
         "model_covid_chestxray",
         "model_covid19_radiography",
         "model_actualmed",
         "model_rsna"
-    ]
+    ]  # here
 
-    for i in range(4):
+    for i in range(5):  # here
         plt.rcParams['font.family'] = "serif"
         plt.rcParams['font.weight'] = "bold"
         plt.rcParams['figure.figsize'] = 13, 10
@@ -70,13 +62,13 @@ def create_graph_all():
         fig, ax = plt.subplots()
 
         barplot = sns.barplot(
-            x=CLASSES, y=[CHESTXRAY[i], RADIOGRAPHY[i], ACTUALMED[i], RSNA[i]])  # TRAIN[i], FIGURE1[i],
+            x=CLASSES, y=[FIGURE1[i], CHESTXRAY[i], RADIOGRAPHY[i], ACTUALMED[i], RSNA[i]])  # here
 
         barplot.patches[0].set_color('darkorange')
         barplot.patches[1].set_color('darkorange')
         barplot.patches[2].set_color('darkorange')
         barplot.patches[3].set_color('darkorange')
-        # barplot.patches[4].set_color('darkorange')
+        barplot.patches[4].set_color('darkorange')
         # barplot.patches[5].set_color('steelblue')
         # barplot.patches[i+1].set_color('forestgreen')
 
