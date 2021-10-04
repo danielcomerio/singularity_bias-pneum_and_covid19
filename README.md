@@ -25,11 +25,9 @@
 - [metrics.py](code/metrics.py): Responsável por criar a matriz de confusão e calcular suas respectivas métricas.
 
 
-### Conjunto de arquivos relacionado às informações deste trabalho
+### Conjunto de arquivos contendo informações obtidas a partir dos modelos criados neste trabalho
 
-- [trains](informations/models_information/trains): Contém os resultados dos treinos de cada um dos modelos.
-- [tests](informations/models_information/tests): Contém os resultados dos testes de cada um dos modelos.
-- [metrics](informations/models_information/metrics): Contém as matrizes de confusão e as métricas referentes às matrizes de cada um dos testes.
+- [models_information](informations/models_information): Contém os resultados dos treinos e dos testes de cada um dos modelos, as matrizes de confusão e as métricas referentes às matrizes de cada um dos testes.
 
 
 ### Conjunto de arquivos relacionado aos gráficos criados neste trabalho
@@ -40,4 +38,4 @@
 
 ## Observação
 
-- Devido ao tamanho dos modelos não foi possível colocá-los aqui no github.
+- Devido ao tamanho dos modelos e das bases de dados não foi possível colocá-los aqui no github.
