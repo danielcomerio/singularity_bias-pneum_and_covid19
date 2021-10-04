@@ -38,4 +38,4 @@
 
 ## Observação
 
-- Devido aos tamanhos dos modelos e das bases de dados não foi possível colocá-los aqui no github.
+- Devido ao tamanho dos modelos e das bases de dados não foi possível colocá-los aqui no github.
