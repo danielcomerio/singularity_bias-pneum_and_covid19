@@ -1,0 +1,10 @@
+Model used: model_actualmed
+Dataset tested: rsna
+
+confusion_matrix: 
+[[  0   0]
+ [124 762]]
+Accuracy: 0.8600451467268623
+Precision: 0.5
+Recall: 0.43002257336343114
+F1-score: 0.46237864077669905

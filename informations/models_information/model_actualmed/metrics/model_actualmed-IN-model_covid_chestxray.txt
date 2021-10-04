@@ -1,0 +1,10 @@
+Model used: model_actualmed
+Dataset tested: covid_chestxray
+
+confusion_matrix: 
+[[36 12]
+ [ 0  2]]
+Accuracy: 0.76
+Precision: 0.5714285714285714
+Recall: 0.875
+F1-score: 0.5535714285714286

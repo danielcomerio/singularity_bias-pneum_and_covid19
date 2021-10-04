@@ -1,0 +1,11 @@
+Model used: model_covid19_radiography
+Dataset tested: rsna
+
+confusion_matrix: 
+[[  0   0   0]
+ [515 359  12]
+ [430  61 110]]
+Accuracy: 0.31540013449899124
+Precision: 0.5854670830080666
+Recall: 0.19607338659294957
+F1-score: 0.2846859937148615

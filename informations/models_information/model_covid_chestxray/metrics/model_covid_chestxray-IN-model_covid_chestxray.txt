@@ -1,0 +1,11 @@
+Model used: model_covid_chestxray
+Dataset tested: covid_chestxray
+
+confusion_matrix: 
+[[47  0  1]
+ [ 2  0  0]
+ [12  0  7]]
+Accuracy: 0.782608695652174
+Precision: 0.5484972677595629
+Recall: 0.4491959064327485
+F1-score: 0.46030127987314523

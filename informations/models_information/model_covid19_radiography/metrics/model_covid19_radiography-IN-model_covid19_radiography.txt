@@ -1,0 +1,11 @@
+Model used: model_covid19_radiography
+Dataset tested: covid19_radiography
+
+confusion_matrix: 
+[[113   7   0]
+ [  0 134   0]
+ [  0  14 121]]
+Accuracy: 0.9460154241645244
+Precision: 0.9548387096774192
+Recall: 0.9459876543209876
+F1-score: 0.9475350738944909

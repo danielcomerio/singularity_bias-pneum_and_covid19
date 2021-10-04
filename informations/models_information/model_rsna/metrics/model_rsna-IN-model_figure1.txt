@@ -1,0 +1,9 @@
+Model used: model_rsna
+Dataset tested: figure1
+
+confusion_matrix: 
+[]
+Accuracy: nan
+Precision: nan
+Recall: nan
+F1-score: nan

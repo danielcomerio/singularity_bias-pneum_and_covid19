@@ -1,0 +1,18 @@
+Comando para executar o arquivo "preprocess_datasets.py": py preprocess_datasets.py "caminho da pasta onde está localizada a pasta da base de dados"
+Exemplo: py preprocess_datasets.py C:\singularity_bias-pneum_and_covid19\datasets
+
+
+
+Comando para executar o arquivo "train.py": py train.py "caminho da pasta contendo as base de dados descarregadas"
+Exemplo: py train.py  C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA
+
+
+
+Comando para executar o arquivo "test.py": py test.py "caminho da pasta contendo as base de dados descarregadas" -mp "caminho da pasta que contém os modelos treinados" -me "caminho da pasta onde será criada uma nova pasta responsável por armazenar os arquivos de texto contendo as informações dos testes"
+Exemplo: py test.py C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA -mp C:\singularity_bias-pneum_and_covid19\trained_models -te C:\singularity_bias-pneum_and_covid19\informations\models_information
+
+
+
+Comando para executar o arquivo "metrics.py": py metrics.py -me "caminho da pasta que contém a pasta com os arquivos das informações dos testes"
+Exemplo: py metrics.py -inf C:\singularity_bias-pneum_and_covid19\informations\models_information
+

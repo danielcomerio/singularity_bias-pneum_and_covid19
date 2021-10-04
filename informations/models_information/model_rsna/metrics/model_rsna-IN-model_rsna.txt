@@ -1,0 +1,10 @@
+Model used: model_rsna
+Dataset tested: rsna
+
+confusion_matrix: 
+[[868  18]
+ [ 76 525]]
+Accuracy: 0.9367854741089442
+Precision: 0.9431711770765052
+Recall: 0.9266140330450002
+F1-score: 0.9332330238067943

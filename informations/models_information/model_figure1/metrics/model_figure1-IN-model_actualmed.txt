@@ -1,0 +1,10 @@
+Model used: model_figure1
+Dataset tested: actualmed
+
+confusion_matrix: 
+[[ 6  0]
+ [13  0]]
+Accuracy: 0.3157894736842105
+Precision: 0.15789473684210525
+Recall: 0.5
+F1-score: 0.23999999999999996

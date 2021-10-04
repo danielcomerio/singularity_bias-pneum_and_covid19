@@ -1,0 +1,13 @@
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004054.png, 1, 3.2995358e-16, 0.999969, 3.1026437e-05
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004055.png, 1, 6.653933e-13, 0.9995945, 0.00040550422
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004056.png, 1, 2.84858e-14, 0.9998956, 0.000104443745
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004057.png, 1, 2.022838e-13, 0.99853265, 0.001467393
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004058.png, 1, 1.1643199e-18, 0.99997807, 2.188021e-05
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004059.png, 1, 3.9486575e-15, 0.9998367, 0.0001632351
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004060.png, 1, 4.9710665e-12, 0.9988819, 0.0011181788
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004061.png, 1, 2.1803181e-13, 0.9997037, 0.00029631794
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004065.png, 1, 1.3366699e-13, 0.9996321, 0.00036789034
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004066.png, 1, 5.545474e-10, 0.9648666, 0.035133384
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004067.png, 1, 2.7028512e-16, 0.99994206, 5.794438e-05
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004069.png, 1, 1.286397e-13, 0.99971575, 0.00028422487
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Actualmed-COVID-chestxray-dataset-master\test\NORMAL\004071.png, 1, 5.104322e-13, 0.9973634, 0.0026365644

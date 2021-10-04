@@ -1,0 +1,10 @@
+Model used: model_rsna
+Dataset tested: covid_chestxray
+
+confusion_matrix: 
+[[ 2  0]
+ [ 5 14]]
+Accuracy: 0.7619047619047619
+Precision: 0.6428571428571428
+Recall: 0.868421052631579
+F1-score: 0.6464646464646464

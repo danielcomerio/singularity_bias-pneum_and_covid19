@@ -1,0 +1,4 @@
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Figure1-COVID-chestxray-dataset-master\test\COVID-19\004795.png, 0, 0.99954957, 4.1743468e-05, 0.0004087479
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Figure1-COVID-chestxray-dataset-master\test\COVID-19\004796.png, 0, 0.9968411, 0.0006094514, 0.0025494304
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Figure1-COVID-chestxray-dataset-master\test\COVID-19\004797.png, 0, 0.9998436, 4.040573e-05, 0.0001159602
+C:\singularity_bias-pneum_and_covid19\datasets\DONE_DATA\Figure1-COVID-chestxray-dataset-master\test\COVID-19\004798.png, 0, 0.84511364, 0.00050489546, 0.1543814
